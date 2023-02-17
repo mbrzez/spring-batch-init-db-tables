@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:db
+  batch:
+    job:
+      enabled: false
+    jdbc:
+      initialize-schema: always
